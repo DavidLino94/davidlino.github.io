@@ -1,0 +1,148 @@
+html {
+    width: 500px;
+    height: 560px;
+    margin: auto;
+    border: 10px solid black;
+    
+    
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin:auto;
+    font-size: 20px;
+
+     
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+   font-family: 'Bree Serif', serif;
+    
+  
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+}
+Select {
+    width: 150px;
+    align-items: center;
+    text-indent: 20px;
+    margin-left:125px;
+    height: 20px;
+    position: fixed;
+    top: 495px;
+    
+    
+     
+}
+img{
+    position: fixed;
+    width: 18px;
+    margin-left: 130px;
+    top: 54px;
+}
+
+header {
+    text-align: left;
+    font-size:18px;
+    font-family: 'Anton', sans-serif;
+}
+
+input {
+    margin-left: 340px;
+    position: fixed;
+    top:50px;
+    right: 300px ;
+    font-size: 16px;
+    font-style: italic;
+}
+#p1{
+    position: fixed;
+    margin-left: 75px;
+}
+#p2{
+    margin-left: 395px;
+    position: fixed;
+    top:400px;
+}
+h1, h2, h3{
+    font-style: bold;
+
+}
+header, input{
+    background: url(/homework/Images/azulmarino.jpg);
+    padding: 5px;
+    
+}
+
+
+#snow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image:
+    url(https://i.imgsafe.org/9cbe65cdf8.png),
+    url(https://i.imgsafe.org/9cbfa586c8.png),
+    url(https://i.imgsafe.org/9cc11aedac.png);
+  z-index: 1;
+  pointer-events: none;
+  -moz-animation: snow 10s linear infinite;
+  -webkit-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+
+@-moz-keyframes snow {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  50% {
+    background-position: 500px 500px, 100px 200px, -100px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 0 400px, 0 300px;
+  }
+}
+
+@-webkit-keyframes snow {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  50% {
+    background-position: 500px 500px, 100px 200px, -100px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 0 400px, 0 300px;
+  }
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  50% {
+    background-position: 500px 500px, 100px 200px, -100px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 0 400px, 0 300px;
+  }
+}
+footer{
+    padding: 40px;
+     background: url(/homework/Images/azulmarino.jpg);
+}
+main{
+    background: lightblue;
+}
