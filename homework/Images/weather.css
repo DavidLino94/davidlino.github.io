@@ -60,7 +60,12 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     margin: auto;
-    font-size: 25px; 
+    font-size: 25px;
+    background: white;
+}
+table{   
+opacity: .5;
+    
     
     
 }
@@ -98,30 +103,39 @@ Select {
 }
 img{
     
-    width: 3.5em;
-    margin-left: 60px;
-    padding: 15px;
+    width: 4.5em;
+    margin-left: 210px;
+    margin-right: auto;
+   display: block;
+    position: relative;
+    top: -80px;
+    
+  
+  
 }
 
-figure {
-   margin: auto;
-    display: block;
-   
-}
 h4 {
     text-align: left;
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-family: 'Anton', sans-serif;
     color: white;
+    padding: 17px;
+    position: relative;
+    top: 0px;
     
     
-    
+
 }
 h4, figure{
     background: url(/homework/Images/azulmarino.jpg);
     
     margin: 0; 
+    opacity: .5;
     
+    
+}
+figure{
+    height: 0px;
 }
 
 
