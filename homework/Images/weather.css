@@ -7,6 +7,12 @@ html {
     
 }
 
+@media screen and (max-width: 500px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
 nav {
     display: inline-block;
     margin-top: 0px;
@@ -45,6 +51,10 @@ nav ul li {
     
 }
 
+.p1 {
+    align-content: center;
+    text-align: center;
+}
 
 table, th, td {
     border: 1px solid black;
