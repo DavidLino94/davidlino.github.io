@@ -7,11 +7,33 @@ html {
     
 }
 
-@media screen and (max-width: 500px) {
-    html, body {
+@media screen and (min-width: 500px) {
+    * {
         font-size: 16px;
     }
+/*
+    table{
+        width: 100%;
+    }
+*/
 }
+
+/*
+.table12 {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.table1 {
+  flex: 1; 
+    width: 100%
+}
+
+.table2 {
+    flex: 1;
+width: auto;}
+*/
 
 nav {
     display: inline-block;
@@ -62,6 +84,7 @@ table, th, td {
     margin: auto;
     font-size: 25px;
     background: white;
+    
 }
 table{   
 opacity: .5;
