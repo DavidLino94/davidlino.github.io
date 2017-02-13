@@ -7,19 +7,33 @@ html {
     
 }
 
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 500px){
+    nav, ul, li {
+        font-size: 15px ;
+        }
     table {
         display: none;
     }
-  
+    h1, h2, h3{
+        margin: 30px; 
     }
+      
 }
+
+
+@media screen and (min-width: 501px){
+    .p1 {
+       font-size: 20px;
+    }
+    
+}
+
 /*
     table{
         width: 100%;
     }
 */
-}
 
 /*
 .table12 {
@@ -217,7 +231,7 @@ figure{
   }
 }
 footer{
-    padding: 2.65em;
+    padding: 2.5em;
      background: url(/homework/Images/azulmarino.jpg);
     opacity: .5;
    
