@@ -7,10 +7,13 @@ html {
     
 }
 
-@media screen and (min-width: 500px) {
-    * {
-        font-size: 16px;
+@media screen and (max-width: 414px) {
+    table {
+        display: none;
     }
+  
+    }
+}
 /*
     table{
         width: 100%;
@@ -39,7 +42,7 @@ nav {
     display: inline-block;
     margin-top: 0px;
     display: block;
-    
+
 }
 
 nav ul {
@@ -48,7 +51,6 @@ nav ul {
  
     padding: 2px;
     font-size: 20px;
-
     
     
 }
