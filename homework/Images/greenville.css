@@ -1,0 +1,199 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    
+}
+
+
+@media screen and (max-width: 500px){
+    nav, ul, li {
+        font-size: 15px ;
+        }
+    table {
+        display: none;
+    }
+    h1, h2, h3{
+        margin: 30px; 
+    }
+      
+}
+
+
+@media screen and (min-width: 501px){
+    .p1 {
+       font-size: 20px;
+    }
+    
+}
+
+/*
+    table{
+        width: 100%;
+    }
+*/
+
+/*
+.table12 {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.table1 {
+  flex: 1; 
+    width: 100%
+}
+
+.table2 {
+    flex: 1;
+width: auto;}
+*/
+
+nav {
+    border: 1px solid;
+}
+
+nav ul {
+   text-align: center;
+    
+ 
+    padding: 2px;
+    font-size: 20px;
+    
+    
+}
+
+#font a{
+    color: black;
+    text-decoration: none;
+}
+
+#font a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+nav ul li {
+   
+    margin-right: 20px;
+    vertical-align: middle;
+    border-right: solid 3px #333333;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.p1 {
+    align-content: center;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 25px;
+    background: white;
+    
+}
+table{   
+opacity: .5;
+    
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Bree Serif', serif;
+    
+}
+h2 {
+    
+    font-size: 40px;
+   font-family: 'Bree Serif', serif;
+    
+}
+
+p {
+    text-align: center;
+}
+h3 {
+    
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+h2, h3{ 
+
+    display: flex;
+    justify-content: center;
+}
+
+
+Select {
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    height: 20px;
+    margin: auto;
+     
+}
+img{
+    
+    width: 4.5em;
+    margin-left: 210px;
+    margin-right: auto;
+   display: block;
+    position: relative;
+    top: -80px;
+    
+  
+  
+}
+
+h4 {
+    text-align: left;
+    font-size: 2.1em;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding: 17px;
+    position: relative;
+    top: 0px;
+    
+    
+
+}
+h4, figure{
+    background: url(/homework/Images/azulmarino.jpg);
+    
+    margin: 0; 
+    opacity: .5;
+    
+    
+}
+figure{
+    height: 0px;
+}
+
+
+
+footer{
+    padding: 2.8em;
+     background: url(/homework/Images/azulmarino.jpg);
+    opacity: .5;
+  
+   
+    
+}
+body{
+    background: url(/homework/Images/sunnyday.jpg) no-repeat center center fixed;
+    margin: 0;
+    border: 0;
+}
+
