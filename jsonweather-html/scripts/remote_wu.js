@@ -37,7 +37,7 @@ $(function () {
                 var humidity = data.current_observation.relative_humidity;
                 var winddir = data.current_observation.wind_dir;
                 var windspeed = data.current_observation.wind_mph;
-                var time = data.current_observation.observation_time_rfc822;
+                data.current_observation.observation_time_rfc822;
                 
                 $("#cityDisplay").prepend(city + " ," + state);
                 $('title').prepend(city + " ," + state);
@@ -46,8 +46,13 @@ $(function () {
                 $('#add1').text("Humididy: " + humidity);
                 $('#add2').text("Wind Speed: " + windspeed + "MPH");
                $('#add3').text("Wind Direction: "  + winddir);
+                $('#city').text(city);
+                $('#state').text(state);
+                
                 $('small').append(time);
                 $("#cover").fadeOut(250);
+                $("#temperature").text(temp_f + " F");
+                
             }
         });
 
