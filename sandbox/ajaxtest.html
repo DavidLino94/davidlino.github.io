@@ -1,0 +1,56 @@
+<!doctype html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AJAX test</title>
+    </head>
+    
+    <body>
+        <h1 id="location"></h1>
+        <h2 id="temp"></h2>
+        <p id="message"></p>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function($) {
+                $.ajax({
+                    url : "/Javascript/weather.json",
+                    dataType : "json",
+                    success : function(data) {
+                        console.log(data);
+                        var location = data['Franklin']['City'];
+                        var temp_f = data['Franklin']['High'];
+                        console.log("Current temperature in " + location + " is: " + temp_f);
+                        
+                    var cur_location = $("#location");
+                    var temp = $("#temp");
+                    var message = $("#message");
+                        
+                        cur_location.text(location + ", " + state);
+                        temp.text(temp_f);
+                        message.text("Current temperature in " + location + " is: " + temp_f);
+  }
+  });
+});
+            function ajaxFromApi(){
+              $.ajax({
+                url : "http://api.wunderground.com/api/45f1166f8768ef5c/geolookup/conditions/q/ID/Rexburg.json",
+                 dataType : "jsonp",
+                success : function(data) {
+                console.log(data)
+                var location = data['location']['city'];
+                var temp_f = data['current_observation']['temp_f'];
+                alert("Current temperature in " + location + " is: " + temp_f);
+    } 
+  });
+}
+            ajaxFromLocalJson("Franklin")
+            ajaxFromApi();
+            
+            
+            
+        </script>
+    
+    </body>
+</html>
