@@ -41,7 +41,7 @@ $(function () {
                 
                 $("#cityDisplay").prepend(city + " ," + state);
                 $('title').prepend(city + " ," + state);
-               $("#currentTemp").prepend(Math.round(temp_f)+"\u00B0F");
+               $("#temp_f").text(Math.round(temp_f)+"\u00B0F");
                 $('#summary').text(toTitleCase(summary));
                 $('#add1').text("Humididy: " + humidity);
                 $('#add2').text("Wind Speed: " + windspeed + "MPH");
@@ -51,7 +51,7 @@ $(function () {
                 
                 $('small').append(time);
                 $("#cover").fadeOut(250);
-                $("#temperature").text(temp_f + " F");
+                
                 
             }
         });
