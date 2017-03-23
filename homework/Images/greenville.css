@@ -170,6 +170,20 @@ h4 {
     
 
 }
+
+
+#search{
+   margin: 11%;
+   
+    
+}
+#searchResults {
+    display: block;
+    justify-content: center;
+}
+#srchfrm{
+    margin: 0 41%;
+}
 h4, figure{
     background: url(/homework/Images/azulmarino.jpg);
     

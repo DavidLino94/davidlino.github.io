@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/homework/Images/greenville.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Anton');
+    @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+    </style>
+    <!-- *********************************************
+    * Who Did You Collaborate With On This Assessment?
+    * 1. David Lino
+    * 2. Ashley Nielson
+    * ******************************************** -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="/homework/Images/website.html">Franklin, ID</a></li>
+
+                <li><a href="/homework/Images/greenville.html">Greenville, SC</a></li>
+                <li><a href="">Springfield, IL</a></li>
+                <li><a href="jsonweather-html/jsonweather.html">Current Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h4>Weather App</h4>
+        
+    <figure>
+    <img alt="logo" src="/homework/Images/partly-cloudy-day-512.png">
+    </figure> 
+    <main id="search">
+        
+        <section id="searchResults">
+            <h2>Search Results</h2>
+            <div id="searchResultsDisplay">
+
+            </div>
+        </section>
+        <form id="srchfrm">
+            <input type="search" name="query" id="query">
+            
+        </form>
+        <section id="weather-info">
+            <h1 class="flex-item" id="cityDisplay"></h1>
+            <h2 class="flex-item" id="summary"></h2>
+            
+            <section class='info-container flex-item  no-hourly'>
+                <h2 id="currentTemp"></h2>
+                <div id="data">
+                    <ul>
+                        <li>Humidity: <span id="precipitation">...</span></li>
+                        <li>Wind Direction: <span id="wind">...</span></li>
+                        <li>Feels Like: <span id="feels">...</span></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <Select>
+                          <option value="date">Wednesday 24</option>
+                          <option value="date">Thursday 25</option>
+                          <option value="date">Friday 26</option>
+        </Select>
+    </footer>
+
+    <script src="/jsonweather-html/scripts/jquery-3.2.0.min.js"></script>
+    <script src="/search.js"></script>
+</body>
+
+
+</html>
