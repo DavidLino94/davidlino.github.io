@@ -1,0 +1,100 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/homework/Images/i)
+}
+
+
+h1 {
+    text-align: center;
+   padding: 20px;
+     color: white;
+    font-size: 30px;
+    margin: auto;
+    background-image: url(/homework/Images/WeightLifting_wallpapers_26.jpg);
+    
+}
+.selected{
+    
+}
+#logo {
+    
+    width: 3.1em;
+    margin-left: 10px;
+    margin-right: auto;
+   display: block;
+    position: relative;
+    top: -86px;
+}
+
+header {
+    display: block;
+    
+    }
+header, li, a{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    padding-left: 37px;
+    padding-right: 39.4px;
+    margin: auto;
+
+}
+#text {
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 80px;
+    text-shadow: 2px 2px gray;
+    
+}
+
+
+#text1{
+    text-align: justify;
+    margin-top: -84px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; 
+    
+}
+#text2{
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 80px;
+    text-shadow: 2px 2px gray;
+        
+}
+
+#text3{
+    text-align: justify;
+    margin-top: -84px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; 
+    
+}
+
+#history1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    margin-top: 38px;
+    
+}
+footer {
+    padding-top: 40px;
+}
+body{
+    background-color: lightgrey;
+}
+#historypic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    margin-top: 38px;
+    
+}
