@@ -1,4 +1,4 @@
-// a jQuery function to implement modularization
+// jQuery
 $(function() {
     console.log("test");
     $("#page-header-kk").load("page-header-kk.html");

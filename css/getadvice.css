@@ -19,7 +19,7 @@ h1 {
 #logo {
     
     width: 3.1em;
-    margin-left: 460px;
+    margin-left: 10px;
     margin-right: auto;
    display: block;
     position: relative;
@@ -46,7 +46,7 @@ header, li, a{
 #text {
     font-size: 20px;
     padding: 30px;
-    text-align: center;
+    margin-left: 80px;
     text-shadow: 2px 2px gray;
     
 }
@@ -55,9 +55,9 @@ header, li, a{
 #text1{
     text-align: justify;
     margin-top: -84px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px; 
+    margin-left: 40px;
+    margin-right: 40px;
+     
     
 }
 #text2{
@@ -70,10 +70,10 @@ header, li, a{
 
 #text3{
     text-align: justify;
-    
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px; 
+    margin-left: 40px;
+    margin-right: 40px;
+
+     
     
 }
 
@@ -98,4 +98,16 @@ body{
     height: 400px;
     margin-top: 38px;
     
+}
+
+@media only screen and (max-width: 610px) {
+    
+    *{
+        font-size: 13px;
+    }
+    history1, #historypic {
+        height: 150px;
+    }
+    
+
 }

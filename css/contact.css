@@ -1,0 +1,164 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/homework/Images/i)
+}
+
+
+h1 {
+    text-align: center;
+   padding: 20px;
+     color: white;
+    font-size: 30px;
+    margin: auto;
+    background-image: url(/homework/Images/WeightLifting_wallpapers_26.jpg);
+    
+}
+.selected{
+    
+}
+#logo {
+    
+    width: 3.1em;
+    margin-left: 40px;
+    margin-right: auto;
+   display: block;
+    position: relative;
+    top: -86px;
+    
+}
+
+header {
+    display: block;
+    
+    }
+header, li, a{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    padding-left: 37px;
+    padding-right: 39.8px;
+    margin: auto;
+
+}
+#text {
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 100px;
+    text-shadow: 2px 2px gray;
+    
+}
+
+
+#text1{
+    text-align: center;
+    margin-top: -40px;
+    
+     
+    
+}
+#text2{
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    
+        
+}
+#movie{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+#text3{
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 40px;
+    width: 110px;
+    margin-top: 130px;
+    border-style: double;
+    border-width: 5px;
+    padding: 10px
+    
+
+     
+    
+}
+
+#history1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    margin-top: 10px;
+    
+}
+footer {
+    padding-top: 40px;
+}
+body{
+    background-color: lightgrey;
+}
+#historypic {
+    display: block;
+   margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-top: -280px;
+    
+}
+
+
+@media only screen and (max-width: 827px) {
+    
+    *{
+        font-size: 13px;
+    }
+    history1, #historypic {
+        height: 150px;
+        margin-top: 40px;
+            margin-left: 80px
+    }
+    #text1{
+    text-align: justify;
+    margin-top: -40px;
+    margin-left: 90px;
+    margin-right: 40px;
+     
+    
+}
+    
+#text3{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 40px;
+    width: 160px;
+    margin-top: 50px;
+    
+
+     
+    
+}
+    #logo {
+    
+    width: 3.1em;
+    margin-left: 10px;
+    margin-right: auto;
+   display: block;
+    position: relative;
+    top: -86px;
+    
+}
+    #text {
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 80px;
+    text-shadow: 2px 2px gray;
+    
+}
+
+
+}

@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
-    background-image: url(/homework/Images/i)
+    background-image: url(/homework/Images/i);
+    
 }
 
 
@@ -51,15 +52,14 @@ header, li, a{
 
 
 #text1{
-    text-align: justify;
+   
     margin-top: -84px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
+    margin-left: 40px;
+    margin-right: 40px;
     
+    text-align: justify;
     
-    
-    
+
     
 }
 #text2{
@@ -75,11 +75,27 @@ header, li, a{
     margin-right: auto;
     height: 300px;
     margin-top: -75px;
+    position: relative;
     
 }
 footer {
     padding-top: 40px;
+    background-color: lightgrey;
+    width: 100%;
 }
 body{
     background-color: lightgrey;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    *{
+        font-size: 13px;
+    }
+    #picture{
+        height: 150px;
+    }
+    
+
 }
