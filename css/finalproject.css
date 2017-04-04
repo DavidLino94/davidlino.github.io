@@ -38,8 +38,7 @@ header, li, a{
     padding: 5px;
     padding-left: 37px;
     padding-right: 39.8px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 
 }
 #text {
@@ -81,11 +80,11 @@ header, li, a{
 footer {
     padding-top: 40px;
     background-color: lightgrey;
-    width: 100%;
+    
 }
 body{
     background-color: lightgrey;
-    width: 100%;
+   
 }
 
 @media only screen and (max-width: 500px) {
