@@ -33,44 +33,26 @@ h1 {
       
      
 }
+#step1, #step1a, #step1b, #step1c, #step1d, #step1e, #step1f{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
 span{
     font-size: 17px;
    
 }
 
-#nutriciona{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    
-}
-#nutricione{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-#nutricioni{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-#nutriciono{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-#step1{
-   text-align: justify;
-   
-   margin-left: 50px;
-    margin-right: 50px;
-      
+
+#nutriciona, #nutricione, #nutricioni, #nutriciono {
+    display: inline-block;
+    margin-left: 10px
 }
 header {
     display: block;
     
     }
-header, li, #menu{
+header, li, a{
     display: inline-block;
     position: relative;
     color: white;
@@ -82,14 +64,20 @@ header, li, #menu{
     margin: auto;
 
 }
-#text {
+#text,  {
     font-size: 20px;
     padding: 30px;
     margin-left: 80px;
     text-shadow: 2px 2px gray;
     
 }
-
+#texta, #textab{
+     font-size: 20px;
+    padding: 30px;
+    margin-left: 80px;
+    text-shadow: 2px 2px gray;
+    
+}
 
 #text1{
     text-align: justify;
